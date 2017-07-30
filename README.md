@@ -41,7 +41,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 	./features.txt
 	
 	./activity_labels.txt
-4. Cleans the Features (variables of the measurements)
+4. Cleans the Features (variables of the measurements).
 	Provides more descriptive names to variables
 5. Joins the tables of the Participants, the Activity they performed, the Activity Type (was it a test or a training environment) and the Measurements of variables
 6. Subsets the data for Standard Deviation and Mean values, and stores it in AllResults variable
