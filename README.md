@@ -25,13 +25,21 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 1. Script downloads file from: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 2. Unzips to current working directory, then changes output to new working directory
 3. Load each important file to the Global Environment (this may take some time, as the files are big for PC)
+	
 	./test/X_test.txt
+	
 	./train/X_train.txt
+	
 	./test/subject_test.txt
+	
 	./train/subject_train.txt
+	
 	./test/y_test.txt
+	
 	./train/y_train.txt
+	
 	./features.txt
+	
 	./activity_labels.txt
 4. Cleans the Features (variables of the measurements)
 	Provides more descriptive names to variables
@@ -39,7 +47,10 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 6. Subsets the data for Standard Deviation and Mean values, and stores it in AllResults variable
 7. Subsets AllResults and calculates MEAN of all variables, stores in AllResults_mean variable
 8. Exports both AllResults and AllResults_mean to txt files, and cleans the Global Environment
+	
 	../UCI HAR CleanData
+	
 	../UCI HAR CleanData/AllResults.txt
+	
 	../UCI HAR CleanData/AllResults_mean.txt
 9. Attempts to open the folder containing the output (Windows PC only)
